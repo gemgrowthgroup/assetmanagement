@@ -42,11 +42,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'ftp.glenly.website'),
-            'port' => env('DB_PORT', '2083'),
-            'database' => env('DB_DATABASE', 'glenutur_assetmanagement'),
-            'username' => env('DB_USERNAME', 'charles@glenly.website'),
-            'password' => env('DB_PASSWORD', 'ammiel4167!'),
+            'host' => env('DB_HOST', 'remotemysql.com'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'm6UbXf4wNq'),
+            'username' => env('DB_USERNAME', 'm6UbXf4wNq'),
+            'password' => env('DB_PASSWORD', 'CDaxuGcQFH'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
