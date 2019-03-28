@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace AssetManagement;
 
 use Illuminate\Database\Eloquent\Model;
 

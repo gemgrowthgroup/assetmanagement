@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace AssetManagement\Http\Controllers;
 
-use App\Asset;
+use AssetManagement\Asset;
 use Illuminate\Http\Request;
 
 class AssetController extends Controller
@@ -41,7 +41,7 @@ class AssetController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Asset  $asset
+     * @param  \AssetManagement\Asset  $asset
      * @return \Illuminate\Http\Response
      */
     public function show(Asset $asset)
@@ -52,7 +52,7 @@ class AssetController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Asset  $asset
+     * @param  \AssetManagement\Asset  $asset
      * @return \Illuminate\Http\Response
      */
     public function edit(Asset $asset)
@@ -64,7 +64,7 @@ class AssetController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Asset  $asset
+     * @param  \AssetManagement\Asset  $asset
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Asset $asset)
@@ -75,7 +75,7 @@ class AssetController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Asset  $asset
+     * @param  \AssetManagement\Asset  $asset
      * @return \Illuminate\Http\Response
      */
     public function destroy(Asset $asset)
