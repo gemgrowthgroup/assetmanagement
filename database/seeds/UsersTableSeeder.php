@@ -10,6 +10,13 @@ class UsersTableSeeder extends Seeder
      *
      * @return void
      */
+
+    /**
+     * Admin
+     * password: admin1234
+     * User
+     * password: employe123
+    */
     public function run()
     {
         DB::table('users')->insert(array (

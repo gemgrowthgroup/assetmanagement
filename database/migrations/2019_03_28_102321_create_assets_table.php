@@ -16,6 +16,9 @@ class CreateAssetsTable extends Migration
         Schema::create('assets', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->longText('description');
+            $table->string('featured_image');
+            $table->integer('stocks');
             $table->unsignedBigInteger('category_id');
             $table->timestamps();
 
